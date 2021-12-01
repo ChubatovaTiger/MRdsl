@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>tmpl</name>
+  <settings>
+    <parameters>
+      <param name="par1" value="credentialsJSON:04302971-d408-4f3a-ac21-ce2e074b2d11" spec="password" />
+    </parameters>
+    <build-runners />
+    <vcs-settings />
+    <requirements />
+    <build-triggers />
+    <cleanup />
+  </settings>
+</template>
+

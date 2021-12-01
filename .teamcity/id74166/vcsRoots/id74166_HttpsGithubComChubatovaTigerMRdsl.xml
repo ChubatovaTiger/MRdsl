@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="c102cac0-5a2f-4e1c-bc94-8f22da7cfd97" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>https://github.com/ChubatovaTiger/MRdsl</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/main" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="credentialsJSON:b2d1750c-f78b-4f1d-b440-200ccb355387" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="url" value="https://github.com/ChubatovaTiger/MRdsl" />
+  <param name="useAlternates" value="AUTO" />
+  <param name="username" value="ChubatovaTiger" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
