@@ -5,7 +5,17 @@
     <parameters>
       <param name="par1" value="credentialsJSON:04302971-d408-4f3a-ac21-ce2e074b2d11" spec="password" />
     </parameters>
-    <build-runners />
+    <build-runners>
+      <runner id="RUNNER_1" name="" type="id74166_Mr74166">
+        <parameters>
+          <param name="system.buildConf.id" value="a" />
+          <param name="system.custom.params" value="" />
+          <param name="system.password" value="credentialsJSON:eea12a4f-de5e-4fee-92f9-9057532535a9" />
+          <param name="system.username" value="b" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+    </build-runners>
     <vcs-settings />
     <requirements />
     <build-triggers />
