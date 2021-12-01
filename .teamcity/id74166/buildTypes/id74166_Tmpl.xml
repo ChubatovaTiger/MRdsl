@@ -15,6 +15,12 @@
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
+      <runner id="RUNNER_2" name="" type="id74166_74166">
+        <parameters>
+          <param name="par3" value="credentialsJSON:89a16551-84b5-46e7-986a-893a2a05c22f" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings />
     <requirements />
