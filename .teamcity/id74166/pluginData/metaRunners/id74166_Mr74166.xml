@@ -5,7 +5,7 @@
       <param name="system.buildConf.id" value="" spec="text description='Identifier of a build configuration where to trigger a build' display='normal' label='Build configuration ID:' validationMode='not_empty'" />
       <param name="system.custom.params" value="" spec="text description='New-line delimited custom build parameters in the form: &lt;name&gt;=&lt;value&gt;' display='normal' label='Custom parameters:' regexp='(|[^=\s|]+=|[^=\s|]+\s*)*' validationMessage='Expected new-line delimited &lt;name&gt;=&lt;value&gt; pairs' validationMode='regex' allowEmpty='true'" />
       <param name="system.username" value="" spec="text description='Username of a user who triggers build' display='normal' label='Username:' validationMode='not_empty'" />
-      <param name="system.password" value="" spec="password description='Password of a user who triggers build' display='normal' label='Password:'" />
+      <param name="system.password" value="teamcity" spec="password description='Password of a user who triggers build' display='normal' label='Password:'" />
     </parameters>
     <build-runners>
       <runner name="" type="Ant">
