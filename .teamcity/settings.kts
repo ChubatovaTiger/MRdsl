@@ -39,6 +39,10 @@ object id74166 : BuildType({
 
 object BuildConfig : BuildType({
     name = "build config"
+
+    params {
+        password("parBC", "credentialsJSON:04302971-d408-4f3a-ac21-ce2e074b2d11")
+    }
 })
 
 object Tmpl : Template({
