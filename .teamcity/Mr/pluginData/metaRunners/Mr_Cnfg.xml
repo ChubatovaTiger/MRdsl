@@ -1,0 +1,10 @@
+<meta-runner name="cnfg">
+  <description>mr</description>
+  <settings>
+    <parameters>
+      <param name="parMR" value="credentialsJSON:b06ab744-dc45-4c77-8062-1942cdefa4c4" spec="password display='normal'" />
+    </parameters>
+    <build-runners />
+    <requirements />
+  </settings>
+</meta-runner>
