@@ -3,7 +3,14 @@
   <name>tmpl</name>
   <settings>
     <parameters />
-    <build-runners />
+    <build-runners>
+      <runner id="RUNNER_1" name="" type="Mr_Cnfg">
+        <parameters>
+          <param name="parMR" value="credentialsJSON:35dbaca6-4cdd-40f2-bd22-e21c3ee27e71" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+    </build-runners>
     <vcs-settings />
     <requirements />
     <build-triggers />
