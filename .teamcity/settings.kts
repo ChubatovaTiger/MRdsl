@@ -27,6 +27,7 @@ version = "2021.1"
 project {
 
     buildType(id74166)
+    buildType(BuildConfig)
 
     template(Tmpl)
 }
@@ -34,6 +35,10 @@ project {
 object id74166 : BuildType({
     id("74166")
     name = "74166"
+})
+
+object BuildConfig : BuildType({
+    name = "build config"
 })
 
 object Tmpl : Template({
