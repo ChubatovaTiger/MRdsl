@@ -38,4 +38,8 @@ object id74166 : BuildType({
 
 object Tmpl : Template({
     name = "tmpl"
+
+    params {
+        password("par1", "credentialsJSON:04302971-d408-4f3a-ac21-ce2e074b2d11")
+    }
 })
